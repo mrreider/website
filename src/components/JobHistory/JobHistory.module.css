@@ -41,12 +41,7 @@
     text-align: center;
     flex-basis: 30%;
     height: 75vh;
-    opacity: 95%;
     transition: .8s;
-}
-
-.projectBox:hover {
-    opacity: 100%;
 }
 
 .projectBox:nth-of-type(2){

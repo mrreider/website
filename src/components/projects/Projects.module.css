@@ -54,10 +54,6 @@
       height: 25%;
   }
 
-  .projectBox:not(:hover){
-      opacity: 55%;
-  }
-
   .projectBox p {
      transition: .6s;
   }
