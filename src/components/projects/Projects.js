@@ -42,7 +42,7 @@ class Projects extends Component {
                 <div className={classes.projectBox}>
                     <p onMouseOver={() => this.setState({ javascriptHelpText: helpText })}
                         onMouseOut={() => this.setState({ javascriptHelpText: <p className={classes.lame2}>Updated Constantly!</p> })}
-                        onClick={() => window.open('https://github.com/mrreider/Portfolio/tree/main/Projects/Portfolio_Website', '_blank')}
+                        onClick={() => window.open('https://github.com/mrreider/website', '_blank')}
                         >This website</p>
                     {this.state.javascriptHelpText}
                 </div>
