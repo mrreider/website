@@ -7,7 +7,7 @@ import JobHistory from './components/JobHistory/JobHistory';
 
 
 class App extends Component{
-
+  
   state = {
     redirectMain: false,
     redirectEducation: false,
