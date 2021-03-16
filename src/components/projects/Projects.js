@@ -22,7 +22,7 @@ class Projects extends Component {
                     <p onMouseOver={() => this.setState({ cHelpText: helpText })}
                         onMouseOut={() => this.setState({ cHelpText: <p className={classes.lame2}>November 2020</p> })}
                         onClick={() => window.open('https://github.com/mrreider/Portfolio/tree/main/Projects/MSP432_Scope_Shooter', '_blank')}
-                        >C Project 353</p>
+                        >MSP432 Microcontroller Shooter</p>
                     {this.state.cHelpText}
                 </div>
                 <div className={classes.projectBox}>
