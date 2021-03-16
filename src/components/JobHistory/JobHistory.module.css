@@ -28,7 +28,7 @@
 }
 
 .Image button:hover {
-    opacity: 65%;
+    opacity: .65;
 }
 
 .projectBox {
@@ -40,7 +40,7 @@
     background-color: rgb(112, 96, 182);
     text-align: center;
     flex-basis: 30%;
-    height: 75vh;
+    height: .9;
     transition: .8s;
 }
 
@@ -69,14 +69,11 @@
 }
 
 
-
-
   @media (max-width: 1280px){
       .Image {
           width: 1280px;
       }
-      
-  }
+ }
 
 @media (min-height: 960px){
     .Image {
@@ -89,7 +86,7 @@
         font-size: 42px;
     } 
     .projectBox p:nth-of-type(4) {
-        font-size: 36px;
+        font-size: 32px;
     }
 
 }
