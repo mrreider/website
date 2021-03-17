@@ -13,8 +13,9 @@ class JobHistory extends Component {
                     <p>Computer Science Teaching Assistant</p>
                     <strong>For: </strong><p>University of Wisconsin - Madison</p>
                     <strong>From: </strong><p>August 2020 - Present</p>
-                    <strong>Responsibilities: </strong><p>Taught both undergraduate and graduate students in the "Programming I" (Comp Sci 200) class. Worked 10+ hours a week on top of taking personal classes. Honed STEM teaching skills by leading interactive labs and having personal office hours. Collaborated with fellow TA's under 
-                    multiple professors to keep an 800+ student class functioning properly.</p>
+                    <strong>Responsibilities: </strong><p>Teach both undergraduate and graduate students 
+                        in the "Programming I" (Comp Sci 200) class. Work 10+ hours a week on top of taking personal classes. Constantly improving STEM teaching skills by leading interactive labs and having personal office hours. Collaborate 
+                        with fellow TA's under multiple professors to keep an 800+ student class functioning properly.</p>
                 </div>
                 <div className = {classes.projectBox}>
                 <p>React.js & React Native<br/> Developer</p>
