@@ -10,7 +10,7 @@ class JobHistory extends Component {
                     <h1>Reid Brostoff</h1>
                 </div>
                 <div className = {classes.projectBox}>
-                    <p>Computer Science Teaching Assistant</p>
+                    <p>Computer Science<br/>Teaching Assistant</p>
                     <strong>For: </strong><p>University of Wisconsin - Madison</p>
                     <strong>From: </strong><p>August 2020 - Present</p>
                     <strong>Responsibilities: </strong><p>Teach both undergraduate and graduate students 
