@@ -85,16 +85,17 @@ class Education extends Component {
                         <br />
                         <strong>Relevent Coursework</strong>
                         <p>
-                            Calculus: Functions of Several Variables
-                        <br />Discrete Mathematics
-                        <br />Computer Science Programming (I & II & III)
-                        <br />General Physics (I & II)
-                        <br />Microprocessor Systems
+                        Microprocessor Systems
                         <br />Circuits I
                         <br />Electrodynamics
                         <br />Introduction to Computer Architecture
                         <br />Digital System Design and Synthesis
                         <br />Machine Organization and Programming
+                        <br /> Calculus: Functions of Several Variables
+                        <br />Discrete Mathematics
+                        <br />Computer Science Programming (I & II & III)
+                        <br />General Physics (I & II)
+                        
                     </p>
                     </div>
                     <div className={classes.projectBox}>
