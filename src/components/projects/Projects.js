@@ -35,8 +35,8 @@ class Projects extends Component {
                 <div className={classes.projectBox}>
                     <p onMouseOver={() => this.setState({ verilogHelpTexT: helpText })}
                         onMouseOut={() => this.setState({ verilogHelpTexT: <p className={classes.lame2}>February 2021</p> })}
-                        onClick={() => window.open('https://github.com/mrreider/Portfolio/tree/main/Projects/SV%20UART', '_blank')}
-                        >System Verilog UART</p>
+                        onClick={() => window.open('https://github.com/mrreider/Portfolio/tree/main/Projects/HDL%20Projects', '_blank')}
+                        >HDL Projects (SystemVerilog, Verilog)</p>
                     {this.state.verilogHelpTexT}
                 </div>
                 <div className={classes.projectBox}>
