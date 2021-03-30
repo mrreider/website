@@ -5,9 +5,9 @@ import classes from './Projects.module.css';
 class Projects extends Component {
 
     state = {
-        javaHelpText: <p className={classes.lame2}>September 2020</p>,
+        javaHelpText: <p className={classes.lame2}>Commented Well!</p>,
         cHelpText: <p className={classes.lame2}>November 2020</p>,
-        verilogHelpTexT: <p className={classes.lame2}>February 2021</p>,
+        verilogHelpTexT: <p className={classes.lame2}>(SystemVerilog, Verilog)</p>,
         javascriptHelpText: <p className={classes.lame2}>Updated Constantly!</p>
     }
     render() {
@@ -22,21 +22,21 @@ class Projects extends Component {
                     <p onMouseOver={() => this.setState({ cHelpText: helpText })}
                         onMouseOut={() => this.setState({ cHelpText: <p className={classes.lame2}>November 2020</p> })}
                         onClick={() => window.open('https://github.com/mrreider/Portfolio/tree/main/Projects/MSP432_Scope_Shooter', '_blank')}
-                        >MSP432 Microcontroller Shooter</p>
+                        >MSP432 Shooter</p>
                     {this.state.cHelpText}
                 </div>
                 <div className={classes.projectBox}>
                     <p onMouseOver={() => this.setState({ javaHelpText: helpText })}
-                        onMouseOut={() => this.setState({ javaHelpText: <p className={classes.lame2}>September 2020</p> })}
-                        onClick={() => window.open('https://github.com/mrreider/Portfolio/tree/main/Projects/Hashtable', '_blank')}>
-                        Java Hashtable</p>
+                        onMouseOut={() => this.setState({ javaHelpText: <p className={classes.lame2}>Commented Well!</p> })}
+                        onClick={() => window.open('https://github.com/mrreider/Portfolio/tree/main/Projects/Java%20Projects', '_blank')}>
+                        Java Projects</p>
                     {this.state.javaHelpText}
                 </div>
                 <div className={classes.projectBox}>
                     <p onMouseOver={() => this.setState({ verilogHelpTexT: helpText })}
-                        onMouseOut={() => this.setState({ verilogHelpTexT: <p className={classes.lame2}>February 2021</p> })}
+                        onMouseOut={() => this.setState({ verilogHelpTexT: <p className={classes.lame2}>(SystemVerilog, Verilog)</p> })}
                         onClick={() => window.open('https://github.com/mrreider/Portfolio/tree/main/Projects/HDL%20Projects', '_blank')}
-                        >HDL Projects (SystemVerilog, Verilog)</p>
+                        >HDL Projects</p>
                     {this.state.verilogHelpTexT}
                 </div>
                 <div className={classes.projectBox}>
