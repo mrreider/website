@@ -20,16 +20,16 @@ class JobHistory extends Component {
                 <div className = {classes.projectBox}>
                 <p>React.js & React Native<br/> Developer</p>
                     <strong>For: </strong><p>Filos</p>
-                    <strong>From: </strong><p>October 2020 - Present</p>
+                    <strong>From: </strong><p>October 2020 - May 2021</p>
                     <strong>Responsibilities: </strong><p>Work remotely with a diverse team, including neurobiology and data science graduate students, to create an application for use in clinical psychiatry, specifically autism. Position requires a dynamic understanding of 
                         front-end website development written in JavaScript and React.</p>
                 </div>
                 <div className = {classes.projectBox}>
-                <p>Camp<br/>Counselor</p>
-                    <strong>For: </strong><p>Camp Cedar</p>
-                    <strong>From: </strong><p>June 2019 - August 2019</p>
-                    <strong>Responsibilities: </strong><p>Supervised and mentored campers from around the world. Taught 6+ hours of tennis five days of week to both campers and fellow counselors. Organized, coached,
-                         and refereed Tennis, Lacrosse, Soccer, and Basketball tournaments..</p>
+                <p>IOT Developer Intern</p>
+                    <strong>For: </strong><p>Flad Architects</p>
+                    <strong>From: </strong><p>May 2021 - Present</p>
+                    <strong>Responsibilities: </strong><p>Work full time and develop Post Occupancy Evaluation (POE) Arduino sensor technology used in many buildings including hospitals, laboratories, and offices. Use sensors monitoring Bluetooth device traffic, positional tracking, 
+                        temperature, carbon monoxide, noise, and light detection. Full stack development with Python. Flask and Firebase back end communicating with Arduino sensors implemented in C++..</p>
                 </div>
                 <button onClick={this.props.setRedirectMain}>Back</button>
             </div>

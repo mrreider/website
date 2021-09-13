@@ -17,7 +17,10 @@ class Education extends Component {
         const clubTenny = (
             <div className={classes.ModalStuff}>
                 <strong>From: September 2019 - Present</strong> <br /><br />
-                <strong>Responsibilities: </strong>Handle finances, budgeting, and oversee all transactions for the college club tennis team
+                <strong>Responsibilities: </strong>
+                Organize and oversee all UW Madison Club tennis affairs. Delegate responsibilities to an executive board.
+                Work to improve club presence, organize tournaments, recruit new players, apply for grants, and properly budget events.
+                Arbitrate between the board and the UW Club organization to follow policies and keep the club maintained
             </div>
         );
 
@@ -84,16 +87,15 @@ class Education extends Component {
                     <br />
                         <br />
                         <strong>Relevent Coursework</strong>
-                        <p>
-                        Microprocessor Systems
-                        <br />Circuits I
-                        <br />Electrodynamics
-                        <br />Introduction to Computer Architecture
-                        <br />Digital System Design and Synthesis
+                        <p>Algorithms
+                        <br />Digital Hardware Design and Synthesis
+                        <br />Software Engineering
+                        <br />Computer Architecture
                         <br />Machine Organization and Programming
-                        <br /> Calculus: Functions of Several Variables
-                        <br />Discrete Mathematics
-                        <br />Computer Science Programming (I & II & III)
+                        <br />Microprocessor Systems
+                        <br />Circuits I & II
+                        <br />Electrodynamics
+                        <br />Calculus: Functions of Several Variables
                         <br />General Physics (I & II)
                         
                     </p>
@@ -103,7 +105,7 @@ class Education extends Component {
                         <strong>Achievements & Positions</strong><br />
                         <br />
                         <strong>(Click on them to see more!)</strong><br /><br />
-                        <p className={classes.ModalText} onClick={() => this.openModal(0)}>Treasurer, UW Madison Club Tennis</p>
+                        <p className={classes.ModalText} onClick={() => this.openModal(0)}>President, UW Madison Club Tennis</p>
                         <p className={classes.ModalText} onClick={() => this.openModal(1)}>Insight Wisconsin AR Sandbox Team</p>
                         <p className={classes.ModalText} onClick={() => this.openModal(2)}>President, Alcohol and Drug Awareness Program of Weston</p>
                         <p className={classes.ModalText} onClick={() => this.openModal(3)}>CT All-State Tennis Selection</p>
