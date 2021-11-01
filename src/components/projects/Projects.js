@@ -28,8 +28,8 @@ class Projects extends Component {
                 <div className={classes.projectBox}>
                     <p onMouseOver={() => this.setState({ javaHelpText: helpText })}
                         onMouseOut={() => this.setState({ javaHelpText: <p className={classes.lame2}>Commented Well!</p> })}
-                        onClick={() => window.open('https://github.com/mrreider/Portfolio/tree/main/Projects/Java%20Projects', '_blank')}>
-                        Java Projects</p>
+                        onClick={() => window.open('https://github.com/mrreider/Portfolio/tree/main/Projects/AI%20and%20Data%20Structures%20Projects', '_blank')}>
+                        AI and Data Structures Projects</p>
                     {this.state.javaHelpText}
                 </div>
                 <div className={classes.projectBox}>
