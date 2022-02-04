@@ -83,7 +83,7 @@ class Education extends Component {
                         <strong>Degree</strong><br />
                     B.S., Computer Engineering, Computer Science<br /><br />
                         <strong>GPA</strong><br />
-                    3.45/4.0
+                    3.49/4.0
                     <br />
                         <br />
                         <strong>Relevent Coursework</strong>

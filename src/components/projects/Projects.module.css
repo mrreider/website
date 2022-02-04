@@ -55,7 +55,7 @@
   }
 
   .projectBox p {
-     transition: .6s;
+     /* transition: .6s; */
   }
 
   .projectBox p:first-of-type:hover {
