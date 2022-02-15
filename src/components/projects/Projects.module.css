@@ -86,11 +86,4 @@
     .Image {
         height:100vh;
     }
-    .projectBox {
-        font-size: 48px;
-    }
-    .projectBox p:hover {
-        font-size: 60px;
-    }
-
 }
