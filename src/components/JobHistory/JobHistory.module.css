@@ -68,6 +68,26 @@
     font-size: 20px;
 }
 
+.centerBox { 
+    border: 6px solid rgb(2, 9, 22);
+    border-radius: 20px;
+    width: 40vw;
+    font-size: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(112, 96, 182);
+    text-align: center;
+    flex-basis: 30%;
+    height: .9;
+    transition: .8s;
+    align-content: center;
+}
+
+.centerBox p:first-of-type { 
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 36px;
+}
+
 
   @media (max-width: 1280px){
       .Image {

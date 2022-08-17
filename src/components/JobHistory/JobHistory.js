@@ -12,22 +12,24 @@ class JobHistory extends Component {
                 <div className = {classes.projectBox}>
                     <p>Computer Science<br/>Teaching Assistant</p>
                     <strong>For: </strong><p>University of Wisconsin - Madison</p>
-                    <strong>From: </strong><p>August 2020 - Present</p>
+                    <strong>From: </strong><p>August 2020 - December 2021</p>
                     <strong>Responsibilities: </strong><p>Teach both undergraduate and graduate students 
                         in the "Programming I" (Comp Sci 200) class. Work 10+ hours a week on top of taking personal classes. Constantly improving STEM teaching skills by leading interactive labs and having personal office hours. Collaborate 
                         with fellow TA's under multiple professors to keep an 800+ student class functioning properly.</p>
                 </div>
-                <div className = {classes.projectBox}>
-                <p>React.js & React Native<br/> Developer</p>
-                    <strong>For: </strong><p>Filos</p>
-                    <strong>From: </strong><p>October 2020 - May 2021</p>
-                    <strong>Responsibilities: </strong><p>Work remotely with a diverse team, including neurobiology and data science graduate students, to create an application for use in clinical psychiatry, specifically autism. Position requires a dynamic understanding of 
-                        front-end website development written in JavaScript and React.</p>
+                <div className = {classes.centerBox}>
+                <br></br>
+                <br></br>
+                <br></br>
+                <p>Cloud Engineer<br/> IBM - Client Engineering</p>
+                
+                <strong>From: </strong>
+                <p>August 2022 - Present</p>
                 </div>
                 <div className = {classes.projectBox}>
                 <p>IOT Developer Intern</p>
                     <strong>For: </strong><p>Flad Architects</p>
-                    <strong>From: </strong><p>May 2021 - Present</p>
+                    <strong>From: </strong><p>May 2021 - August 2021</p>
                     <strong>Responsibilities: </strong><p>Work full time and develop Post Occupancy Evaluation (POE) Arduino sensor technology used in many buildings including hospitals, laboratories, and offices. Use sensors monitoring Bluetooth device traffic, positional tracking, 
                         temperature, carbon monoxide, noise, and light detection. Full stack development with Python. Flask and Firebase back end communicating with Arduino sensors implemented in C++..</p>
                 </div>
